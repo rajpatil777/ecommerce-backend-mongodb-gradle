@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: ecommerceApplication
+  data:
+    mongodb:
+      database: ecommerce
+      port: 27017
+      host: localhost
+      uri: mongodb://${spring.data.mongodb.host}/${spring.data.mongodb.port}
